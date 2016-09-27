@@ -28,7 +28,7 @@
 #
 
 DESTDIR = /usr/local
-ASTROMETRY_DATA_DIR = $(DESTDIR)/share/astrometry
+ASTROMETRY_DATA_DIR = $(DESTDIR)/share/astrometry/data
 
 build:
 	python3 scripts/convert_cat_to_fits.py
