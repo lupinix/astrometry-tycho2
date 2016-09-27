@@ -1,0 +1,5 @@
+Requirements to build astrometry.net index files from upstream Tycho-2
+======================================================================
+
+* Python 3 with astropy installed (Script to generate a FITS table from .dat files)
+* astrometry.net (provides build-astrometry-index to generate the index files from the FITS table)
