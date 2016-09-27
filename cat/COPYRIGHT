@@ -1,0 +1,68 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: astrometry.net
+Source: www.astrometry.net
+
+Files: *
+Copyright: 2000 Hog E., Fabricius C., Makarov V.V., Urban S., Corbin T.,
+ Wycoff G., Bastian U., Schwekendiek P., Wicenec A.
+ 2015 Ole Streicher <olebole@debian.org> (Debian files)
+License: BSD-2-Clause
+ All rights reserved.
+ .
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright
+ notice, this list of conditions and the following disclaimer in the
+ documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+ IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+ PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+ LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+ NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Comment: The distribution itself does not contain a license note.
+ Therefore, I asked the author of the catalog and got the following
+ response:
+ .
+  From: Erik Høg
+  To: Ole Streicher <olebole@debian.org>
+  Subject: RE: Tycho-2 Catalogue copyright
+  Date: Wed, 23 Sep 2015 12:05:42 +0000
+ .
+  OK
+  Erik
+  _______________________________________
+  From: Ole Streicher [olebole@debian.org]
+  Sent: Monday, September 14, 2015 10:10 AM
+  To: Erik Høg
+  Subject: Re: Tycho-2 Catalogue copyright
+ .
+  Dear Erik,
+  in August we had a short discussion about the copyright of the Tycho-2
+  catalogue, but didn't come to an conclusion.
+  A good example for the copyright clause here would be the one that is
+  used in the Berkeley Software Distribution:
+ .
+  -----------------------------8<----------------------------------------
+  [See above -- olebole]
+  -----------------------------8<----------------------------------------
+ .
+  The modification is important, since it includes f.e. conversion to
+  other formats, combination with other catalogues, corrections and so on.
+  Or should I discuss this with someone else? Whom would you recommend?
+ .
+  Best regards
+  Ole Streicher
+Copmment: The astrometry.net package is used to create the binaries. However,
+ the license of the binaries is the same as for the source (according to
+ Dustin Lang, author of astrometry.net).
