@@ -1,0 +1,3 @@
+This directory contains the original Tycho-2 files fetched from VizieR
+
+FTP: ftp://cdsarc.u-strasbg.fr/pub/cats/I/259

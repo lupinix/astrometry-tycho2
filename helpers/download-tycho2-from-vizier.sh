@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Copyright: 2016 Christian Dersch <lupinix@mailbox.org>
+# License: BSD-2-Clause
+#
 
 FTPURL="ftp://cdsarc.u-strasbg.fr/pub/cats/I/259"
 

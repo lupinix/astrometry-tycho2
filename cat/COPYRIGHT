@@ -5,7 +5,6 @@ Source: www.astrometry.net
 Files: *
 Copyright: 2000 Hog E., Fabricius C., Makarov V.V., Urban S., Corbin T.,
  Wycoff G., Bastian U., Schwekendiek P., Wicenec A.
- 2015 Ole Streicher <olebole@debian.org> (Debian files)
 License: BSD-2-Clause
  All rights reserved.
  .
