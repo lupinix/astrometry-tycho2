@@ -5,6 +5,9 @@
 # License: BSD (2 clause, see LICENSE.txt)
 #
 
+# Exit on errors...
+set -e
+
 # Generate indices as mentioned in http://data.astrometry.net/4100/README
 cd build
 for i in `seq -w 11 19` ; do
