@@ -23,6 +23,7 @@ suppl_vtmag_col = "col14"
 # Create a table containing positions and brightness for whole Tycho-2
 cat = Table(names=("RA","DEC","MAG_VT"))
 tyc2_cat_files = glob("cat/tyc2.dat.*")
+tyc2_cat_files.sort()
 for tyc2_dat in tyc2_cat_files:
     print("Processing file ",tyc2_dat)
     tyc2_dat_table = ascii.read(tyc2_dat)
