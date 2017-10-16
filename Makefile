@@ -17,7 +17,7 @@ build:
 
 install:
 	mkdir -p '$(ASTROMETRY_DATA_DIR)'
-	cp build/index-tycho2*.fits '$(ASTROMETRY_DATA_DIR)'
+	cp build/index-*.fits '$(ASTROMETRY_DATA_DIR)'
 
 clean:
 	rm -rf build/
