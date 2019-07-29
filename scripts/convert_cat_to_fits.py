@@ -42,11 +42,12 @@ cat = vstack([cat,suppl_table["RA","DEC","MAG_VT"]])
 
 # Now generate the FITS table
 print("Generating FITS table")
-os.mkdir("build")
+if not os.exists("build"):
+    os.mkdir("build")
 tyc2_fits = fits.BinTableHDU.from_columns([
     fits.Column(name="RA", format="E", array=cat["RA"]),
     fits.Column(name="DEC", format="E", array=cat["DEC"]),
     fits.Column(name="MAG_VT", format="E", array=cat["MAG_VT"])])
-tyc2_fits.writeto("build/tyc2.fits")
+tyc2_fits.writeto("build/tyc2.fits", overwrite=True)
 print("FITS table written to build/tyc2.fits")
 
