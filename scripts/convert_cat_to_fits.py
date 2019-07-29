@@ -48,7 +48,7 @@ if not os.path.exists("build"):
 tyc2_fits = fits.BinTableHDU.from_columns([
     fits.Column(name="RA", format="E", array=cat["RA"]),
     fits.Column(name="DEC", format="E", array=cat["DEC"]),
-    fits.Column(name="MAG_VT", format="E", array=cat["MAG_VT"]).filled()])
+    fits.Column(name="MAG_VT", format="E", array=cat["MAG_VT"].filled())])
 tyc2_fits.writeto("build/tyc2.fits", overwrite=True)
 print("FITS table written to build/tyc2.fits")
 
