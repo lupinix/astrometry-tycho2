@@ -43,7 +43,7 @@ cat["MAG_VT"].fill_value = 99.0
 
 # Now generate the FITS table
 print("Generating FITS table")
-if not os.exists("build"):
+if not os.path.exists("build"):
     os.mkdir("build")
 tyc2_fits = fits.BinTableHDU.from_columns([
     fits.Column(name="RA", format="E", array=cat["RA"]),
